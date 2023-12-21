@@ -346,7 +346,7 @@ div:has(a:only-child){
  * Utilities
  */
 
-.flow * + * {
+.flow > * + * {
   margin-top: var(--flow-gap);
 }
 
@@ -358,6 +358,7 @@ header{
   color: var(--color-white);
   background-color: var(--color-blue);
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
